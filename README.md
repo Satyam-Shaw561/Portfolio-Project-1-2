@@ -77,4 +77,67 @@ To reduce churn by identifying patterns and building a predictive model that hel
 
 ## Author
 Satyam Shaw
-_Data Science Portfolio Project_
+_Data Science Portfolio Project_1
+
+# Retail Business Profitability & Inventory Optimization
+
+##  Objective
+The goal of this project is to analyze retail sales data to:
+- Identify profit-draining product categories
+- Optimize inventory efficiency
+- Uncover seasonal trends in sales and profit
+- Deliver insights via interactive dashboards
+
+---
+
+##  Tools & Technologies
+- **Python** (Pandas, Matplotlib, Seaborn)
+- **MySQL** (Data aggregation logic)
+- **Tableau** & **Power BI** (Dashboard visualization)
+- **CSV + Jupyter Notebook** (Final deliverables)
+
+---
+
+##  Dataset Summary
+The dataset contains:
+- `Order_Date`, `Ship_Date`, `Category`, `Sub_Category`, `Region`, `State`
+- Sales metrics: `Sales`, `Quantity`, `Discount`, `Profit`
+
+---
+
+##  Features & Analysis
+-  **Profitability Analysis** by category and sub-category
+-  **Region-wise performance** comparison
+-  **Monthly sales & profit trends**
+-  **Inventory efficiency** (Quantity vs. Profit)
+-  **Profit Margin Segmentation**: High, Moderate, Low, Loss
+-   All analyses merged into a single CSV for easy dashboarding
+
+---
+
+##  Dashboards
+- Tableau: Profit heatmaps, KPI cards, sales trends, sub-category bar charts
+- Power BI: Interactive filters, summary tiles, region-wise drilldowns
+
+---
+
+##  Key Insights
+- Office Supplies show low margins despite high volume
+- Nov–Dec sees a spike in sales across regions
+- Some sub-categories incur consistent losses and need pricing review
+- West region generates strong revenue but moderate margin
+
+---
+
+##  Deliverables
+- `samplesuperstore_final.csv` – Cleaned dataset
+-  `combined_analysis.csv` – All metrics merged into one
+-  `Retail_Profitability.ipynb` – Python EDA + plots
+-  Tableau Dashboard (`.twbx`)
+-  Power BI Report (`.pbix`)
+-  `Retail_Report.pdf` – Executive summary
+-  `Retail_Detailed_Report.pdf` – 10-section full report
+-  `README.md` – This file!
+## Author
+Satyam Shaw
+_Data Science Portfolio Project_2
